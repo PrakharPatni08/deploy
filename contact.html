@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="all">
+    <div class="header">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+    <div class="main_content" >
+    <h1 style="margin: 100px 100px 0px 100px;">Contact Info:-</h1>
+    <div style="height: auto; width: 300px; border: 1px black solid; margin: 0px 100px 100px 100px; padding: 10px;">
+        <form action="/get">
+            <label for="name">Student Name:-
+                <input type="text" id="name" placeholder="Enter your Full Name:">
+            </label><br>
+            <label for="age">Age:-
+                <input type="number" placeholder="Enter your age">
+            </label><br>
+            <label for="remark">Remark:-<br>
+                <textarea name="remark" id="remark" cols="35" rows="4" placeholder="Add your remark"></textarea>
+            </label><br>
+            <label for="email">Email:-
+                <input type="email" placeholder="Enter you Mail Id">
+            </label>
+            <label for="cars">Car Brand:-
+                <select name="cars" id="cars">
+                    <option value="cars" disabled>Select a car brand</option><!--disabled is used so that you cannot select it-->
+                    <option value="Toyota" >Toyota</option>
+                    <option value="=Tata">Tata</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Hellcat">Hellcat</option>
+                    <option value="Mustang">Mustang</option>
+                </select><br>
+            </label>
+            <label for="Gender">Gender:-
+                <input type="radio" name="Gender" id="1">Male</input>
+                <input type="radio" name="Gender" id="2">Female</input>
+                <input type="radio" name="Gender" id="3">Others</input>
+            </label>
+            <label for="mobile">Mobile_No:-
+                <input type="number" name="mobile_no" id="mobile" placeholder="Enter your Mobile no.">
+            </label>
+            <p>Check the following Boxes:-</p>
+            <input type="checkbox" name="vehicle1" id="vehicle">
+            <label for="vehicle1">I Have Car</label><br>
+            <input type="checkbox" name="vehicle2" id="vehicle">
+            <label for="vehicle1">I Have Bike</label><br>
+            <input type="checkbox" name="vehicle3" id="vehicle">
+            <label for="vehicle1">I Have Cycle</label>
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <footer> 
+        <p>&copy; 2024 all rights reserved</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

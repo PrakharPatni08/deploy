@@ -1,0 +1,44 @@
+.header{
+   background:linear-gradient(to right,#FFB200, #EB5B00) ;
+   position:sticky;
+   top:0; /*to keep the navbar at the top */
+   z-index: 2;
+}
+.main_content{
+    background:linear-gradient(to right, #640D5F,#D91656 );
+    color: #FFB200;
+}
+.footer{
+    background:linear-gradient(to right,#FFB200, #EB5B00) ;
+    margin: 100px 0px 0px 0px;
+    position:sticky;
+    bottom: 0; /*to keep the footer at the bottom*/
+    z-index: 2;
+}
+.all{
+    background:linear-gradient(to right, #640D5F,#D91656 );
+
+}
+a{
+    text-decoration:underline;
+    color: #640D5F;
+}
+.project{
+    text-decoration:underline;
+    color: #FFB200;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    margin: 20px;
+    transform: translate(42px, 18px);
+    border: #FFB200 10px dashed;
+    border-radius: 25%;
+}
+
+/* #640D5F purple
+#D91656 maroon 
+#EB5B00 orange 
+#FFB200 yello */
